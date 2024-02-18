@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "module": "^1.2.5",
+    "snabbdom": "^3.6.2"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "start": "node ../job/src/index.js"
+  }
+}
